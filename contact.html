@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script src="main.js"></script>
+</head>
+
+<header>
+    <div class="headercontainer">
+        <h1>ENEA ANTONICELLI</h1>
+
+        <nav>
+            <a href="index.html" class="nav">ABOUT</a> |
+            <a href="portfolio.html" class="nav">PORTFOLIO</a> |
+            <a href="contact.html" class="nav">CONTACT</a>
+        </nav>
+    </div>
+</header>
+
+<body background="assets/images/backgroundpattern.png">
+
+    <main class="main contactmain">
+
+        <h2 id="aboutme">Contact me</h2>
+
+        <hr></hr>
+            <div class="container">
+                <div class="column">
+                    <form method="post" action="mailto:eneaantonicelli@gmail.com">
+                        <label for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="country">Country</label>
+                        <select id="country" name="country">
+                            <option value="australia">USA</option>
+                            <option value="canada">Canada</option>
+                            <option value="usa">Europe</option>
+                            <option value="usa">South America</option>
+                            <option value="usa">Africa</option>
+                            <option value="usa">Australia</option>
+                            <option value="usa">Asia</option>
+                        </select>
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:70px"></textarea>
+                        <input type="submit" value="Send E-mail">
+                    </form>
+                </div>
+
+            </div>
+
+        
+    </main>
+</body>
+<footer>Copyright @ 2018</footer>
+
+</html>
